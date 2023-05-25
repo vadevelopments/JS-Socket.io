@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../static/stylesheets/style.css">
+    <link rel="icon" href="../static/images/social-store.png">
+    <title>Virtual Recitation</title>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="../static/scripts/client.js"></script>
+</head>
+<body>
+    <div class="topDiv">
+        <div id="canva">
+<%      for(var index in colors) { %>
+            <a class="btns" id="btn<%=colors[index]%>""></a>
+<%      } %>
+            <a id="clear">CLEAR</a>
+        </div>
+        <div id="members">
+            <h3>Members in room</h3>
+        </div>
+    </div>
+</body>
+</html>

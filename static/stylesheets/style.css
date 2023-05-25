@@ -1,0 +1,98 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.topDiv {
+    width: 1200px;
+    margin: 30px auto;
+}
+
+#canva {
+    width: 600px;
+    vertical-align: top;
+    display: inline-block;
+    /* z-index: 1; */
+}
+
+#members {
+    width: 300px;
+    min-height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    /* z-index: 1; */
+    padding: 10px;
+    margin-left: 200px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+#members h3 {
+    text-align: center;
+}
+
+a {
+    border: 0.5px solid transparent;
+    border-radius: 10px;
+    padding: 10px 50px;
+    margin: 10px 20px;
+    z-index: 1;
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+#clear {
+    font-weight: bold;
+    background-color: red;
+}
+
+#clear:hover {
+    background-color: rgb(180, 5, 5);
+}
+
+#btnyellow {
+    background-color: yellow;
+}
+
+#btnyellow:hover {
+    background-color: rgb(218, 218, 8);
+}
+
+#btngreen {
+    background-color: green;
+}
+
+#btngreen:hover {
+    background-color: rgb(2, 94, 2);
+}
+
+#btnblue {
+    background-color: blue;
+}
+
+#btnblue:hover {
+    background-color: rgb(6, 6, 196);
+}
+
+#btnpink {
+    background-color: pink;
+}
+
+#btnpink:hover {
+    background-color: rgb(192, 145, 153);
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+    z-index: -1;
+}
+
+.circle span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
